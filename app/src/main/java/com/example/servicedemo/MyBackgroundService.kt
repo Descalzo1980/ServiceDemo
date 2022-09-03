@@ -22,7 +22,7 @@ class MyBackgroundService : Service(){
     override fun onBind(intent: Intent?): IBinder? = null
 
     override fun onDestroy() {
-        Log.i(TAG,"Destroying...")
+        Log.i(TAG,"Destroying....")
         super.onDestroy()
     }
 
